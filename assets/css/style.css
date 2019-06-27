@@ -224,3 +224,23 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+#bio{
+  margin-top: 20px;
+}
+
+@media screen and (mid-width:980px)
+{ #logo { backgrouund: #4aaaa5;
+}
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    background: yellow;
+  }
+}
+@media screen and (max-width: 640px) {
+  #logo {
+    background: blue;
+  }
+}
